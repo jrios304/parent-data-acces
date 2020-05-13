@@ -9,6 +9,11 @@
   <packaging>pom</packaging>
   <description>padre de los modulos DAO</description>
   
+  <modules>
+  	<module>../clientes-data-acces</module>
+  	<module>../configuracion-data-acces</module>
+  </modules>
+  
   <properties>
 		<spring.framework.release>5.0.3.RELEASE</spring.framework.release>
 		<release-train>Kay-SR3</release-train>
